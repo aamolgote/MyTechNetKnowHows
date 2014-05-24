@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HtmlTemplateBundleConfig" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="include">
+    <xs:attribute name="path" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="htmlTemplateBundle">
+    <xs:sequence>
+      <xs:element name="include" type="include" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attribute name="path" type="xs:string" use="required" />
+    <xs:attribute name="cdnPath" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:element name="bundles">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element type="htmlTemplateBundle" name="htmlTemplateBundle" />
+      </xs:choice>
+      <xs:attribute name="version" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+

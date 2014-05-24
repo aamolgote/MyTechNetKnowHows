@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>ML GWIM</authors>
+    <owners>ML GWIM</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GWIM HTML Custom Template Bundler</description>
+    <releaseNotes>GWIM HTML Template Bundler.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>ML UF</tags>
+  </metadata>
+</package>

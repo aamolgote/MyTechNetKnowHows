@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7D7941E1-C49F-4BC5-B9FE-7A8124BD76C1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Optimization.TemplateBundling", "Web.Optimization.TemplateBundling\Web.Optimization.TemplateBundling.csproj", "{214E56F9-F385-49FA-9457-75ED4FE4E8F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Optimization.TemplateBundling.Tests", "Web.Optimization..TemplateBundling.Tests\Web.Optimization.TemplateBundling.Tests.csproj", "{68388BCA-C6E8-459C-9265-63EA6134289D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateBundlingTestApp", "TemplateBundlingTestApp\TemplateBundlingTestApp.csproj", "{5F0AB43B-C33E-4761-9754-16A369E07B36}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://adgsrn.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Web.Optimization.TemplateBundling\\Web.Optimization.TemplateBundling.csproj
+		SccProjectName1 = Web.Optimization.TemplateBundling
+		SccLocalPath1 = Web.Optimization.TemplateBundling
+		SccProjectUniqueName2 = Web.Optimization..TemplateBundling.Tests\\Web.Optimization.TemplateBundling.Tests.csproj
+		SccProjectName2 = Web.Optimization..TemplateBundling.Tests
+		SccLocalPath2 = Web.Optimization..TemplateBundling.Tests
+		SccProjectUniqueName3 = TemplateBundlingTestApp\\TemplateBundlingTestApp.csproj
+		SccProjectName3 = TemplateBundlingTestApp
+		SccLocalPath3 = TemplateBundlingTestApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214E56F9-F385-49FA-9457-75ED4FE4E8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214E56F9-F385-49FA-9457-75ED4FE4E8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214E56F9-F385-49FA-9457-75ED4FE4E8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214E56F9-F385-49FA-9457-75ED4FE4E8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68388BCA-C6E8-459C-9265-63EA6134289D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68388BCA-C6E8-459C-9265-63EA6134289D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68388BCA-C6E8-459C-9265-63EA6134289D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68388BCA-C6E8-459C-9265-63EA6134289D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0AB43B-C33E-4761-9754-16A369E07B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0AB43B-C33E-4761-9754-16A369E07B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0AB43B-C33E-4761-9754-16A369E07B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0AB43B-C33E-4761-9754-16A369E07B36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

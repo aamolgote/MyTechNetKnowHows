@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Load Templates Using Config File";
+}
+
+<script src="~/Scripts/jquery-2.1.0.js"></script>
+<script src="~/Scripts/LoadTemplates.js"></script>
+@HtmlTemplates.Render("~/bundles/Config")
+
+<input type="button" id="btnLoadTemplate1" onclick="LoadTemplate('/content/templates/app2.html', 'template1');" value="Load Template 1" />
+<div id="template1"></div>
+
+@HtmlTemplates.Render("~/bundles/WildCardConfig")
+<input type="button" id="btnLoadWildCardTemplate1" onclick="LoadTemplate('/content/templates/wildCard/wildCardapp1.html', 'wildCardtemplate1');" value="Load Wild Card Template 1" />
+<div id="wildCardtemplate1"></div>
+
+<input type="button" id="btnLoadWildCardTemplate1.1" onclick="LoadTemplate('/content/templates/wildCard/wildCardapp1.1.html', 'wildCardtemplate1.1');" value="Load Wild Card Template 1.1" />
+<div id="wildCardtemplate1.1"></div>
+
+<input type="button" id="btnLoadWildCardTemplate1.2" onclick="LoadTemplate('/content/templates/wildCard/wildCardapp1.2.html', 'wildCardtemplate1.2');" value="Load Wild Card Template 1.2" />
+<div id="wildCardtemplate1.2"></div>
