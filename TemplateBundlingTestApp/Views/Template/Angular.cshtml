@@ -1,5 +1,20 @@
 ﻿@{
     ViewBag.Title = "Angular";
 }
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/angular-route.js"></script>
+<script src="~/Scripts/angular-resource.js"></script>
+<script src="~/Scripts/Template.js"></script>
+<script src="~/Scripts/controllers.js"></script>
+<div ng-app="htmlTemlateApp">
+    @HtmlTemplates.RenderFormat("<script type=\"text/ng-template\" id=\"{1}\">{0}</script>", "~/bundles/Sample")
+    
+    <div ng-controller="htmlTemlateListController">
+        <select ng-model="template" ng-options="t.name for t in templates"></select>
+        url of the template: {{template.url}}
+        <hr />
+        <h2>Template Content</h2>
+        <div ng-include src="template.url"></div>
+    </div>
+</div>
 
-<h2>Angular</h2>

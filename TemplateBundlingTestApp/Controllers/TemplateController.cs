@@ -26,5 +26,9 @@ namespace TemplateBundlingTestApp.Controllers
             return View();
         }
 
+        public ActionResult Angular()
+        {
+            return View();
+        }
     }
 }
