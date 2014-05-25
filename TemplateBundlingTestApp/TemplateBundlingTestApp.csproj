@@ -259,8 +259,7 @@
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\LoadTemplates.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\services.js" />
-    <Content Include="Scripts\Template.js" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\version.json" />
     <None Include="Scripts\_references.js" />
     <Content Include="Views\Temp.html" />
